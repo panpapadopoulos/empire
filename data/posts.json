@@ -1,0 +1,98 @@
+{
+  "posts": [
+    {
+      "id": "decree-001",
+      "stream": "decrees",
+      "streamLabel": "Imperial Decree",
+      "date": "2023",
+      "author": "The Twin Crowns (Lishhhhmm & panosusa)",
+      "title": "Decree I - Proclamation of the Empire",
+      "summary": "The City is formally declared an Empire under the equal and sovereign rule of the Twin Crowns.",
+      "tags": [
+        "Decree",
+        "Founding",
+        "Empire"
+      ],
+      "body": "<p>By the united will of the Twin Crowns and the peoples of the City, the administrative union of the founding regions is hereby proclaimed an <b>Empire</b>.</p><p>The City stands as the Imperial Capital, and <b>Lishhhhmm</b> and <b>panosusa</b> are recognized as its sole and equal Emperors.</p><p>From this day forward, all authority flows from the Twin Crowns, and all future regions shall enter the realm under Imperial law.</p>"
+    },
+
+    {
+      "id": "decree-002",
+      "stream": "decrees",
+      "streamLabel": "Imperial Decree",
+      "date": "2023",
+      "author": "The Twin Crowns (Lishhhhmm & panosusa)",
+      "title": "Decree II - Recognition of the First Duchy",
+      "summary": "The Third Village is recognized as the first Duchy beyond the Capital, and ChristosZita is confirmed as its Duke.",
+      "tags": [
+        "Decree",
+        "Expansion",
+        "Council"
+      ],
+      "body": "<p>The Third Village, having accepted the Imperial Proposal and fulfilled the conditions of entry, is hereby recognized as the first Duchy beyond the Capital.</p><p><b>ChristosZita</b> is confirmed as Duke and charged with stewardship, production, and the faithful observance of Imperial law.</p><p>May this Duchy stand as the first pillar of a growing realm.</p>"
+    },
+
+    {
+      "id": "decree-003",
+      "stream": "decrees",
+      "streamLabel": "Imperial Decree",
+      "date": "2023",
+      "author": "The Twin Crowns (Lishhhhmm & panosusa)",
+      "title": "Decree III - Ratification of the Imperial Constitution",
+      "summary": "The Constitution is affirmed as the supreme and binding law of the Empire, governing all regions, rulers, and citizens.",
+      "tags": [
+        "Decree",
+        "Ceremony",
+        "Law"
+      ],
+      "body": "<p>By the will of the Dual Emperors and the united peoples of the Empire, the Constitution is hereby ratified and proclaimed as the supreme and binding law of the realm.</p><p>All subjects, citizens, dukes, and officers are required to uphold its Articles, honor its authority, and submit disputes to the lawful mechanisms established therein.</p><p>So declared under the vigilance of the Twin Crowns.</p>"
+    },
+    {
+      "id": "decree-004",
+      "stream": "decrees",
+      "streamLabel": "Imperial Decree",
+      "date": "2023",
+      "author": "The Twin Crowns (Lishhhhmm & panosusa)",
+      "title": "Decree IV - Recognition of the Imperial Industrial Zone",
+      "summary": "The central industrial district of the Capital is formally recognized as an Imperial Zone under direct authority of the Twin Crowns.",
+      "tags": [
+        "Decree",
+        "Industry",
+        "Capital",
+        "Infrastructure"
+      ],
+      "body": "<p>By authority of the Twin Crowns, the industrial district within the Capital is hereby recognized as the <b>Imperial Industrial Zone</b>.</p><p>This zone shall serve as the foundation of production, resource processing, and material distribution for the entire Empire, operating under direct Imperial oversight.</p><p>All facilities within the zone are designated strategic assets. Their protection, maintenance, and expansion are matters of Imperial priority.</p><p>May this district stand as the engine of prosperity and strength for the realm.</p>"
+    },
+    {
+      "id": "decree-005",
+      "stream": "decrees",
+      "streamLabel": "Imperial Decree",
+      "date": "2024",
+      "author": "The Twin Crowns (Lishhhhmm & panosusa)",
+      "title": "Decree V - Commencement of the Construction of the Empire Hall",
+      "summary": "Construction is authorized to begin on the Empire Hall, the future seat of Imperial governance and ceremony.",
+      "tags": [
+        "Decree",
+        "Construction",
+        "Capital",
+        "Council"
+      ],
+      "body": "<p>Let it be known that, by decree of the Twin Crowns, construction shall commence upon the <b>Empire Hall</b>, destined to stand as the foremost civic and ceremonial structure of the Empire.</p><p>The Empire Hall shall serve as the seat of Imperial governance, the meeting place of the Imperial Council, and the site of proclamations, ceremonies, and judgments of state.</p><p>Its foundations shall be laid within the Capital, and its design shall reflect the authority, unity, and permanence of the Empire.</p><p>May its walls rise in strength, and may its halls endure for all ages.</p>"
+    },
+    {
+      "id": "chronicle-000",
+      "stream": "chronicles",
+      "streamLabel": "Imperial Chronicle",
+      "date": "2023",
+      "author": "Imperial Scribes",
+      "title": "Chronicle I - The Union of Two Villages",
+      "summary": "From a narrow sea passage to a single City: the founding moment that made an Empire possible.",
+      "tags": [
+        "Chronicle",
+        "Construction",
+        "Capital"
+      ],
+      "body": "<p>Village A and Village B once stood apart, divided only by a short sea passage. With growth came vision: shared industry, shared governance, and a unified center.</p><p>Industry rose in Village B where land was plentiful. A common administrative heart followed, and the people of Village A gradually relocated. Part of Village B was cleared to make space.</p><p>Thus the settlements became one: <b>The City</b>, ruled jointly by the Twin Crowns.</p>"
+    }
+  ]
+}

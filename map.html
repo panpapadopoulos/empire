@@ -1,0 +1,201 @@
+<!--<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>World Map — Empire of the Twin Crowns</title>
+  <meta name="description" content="Official portal of the Empire of the Twin Crowns"/>
+  <link rel="icon" href="assets/empire-banner.png"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/empire-banner.png" alt="Empire banner">
+      <div class="title">
+        <strong>Empire Portal</strong>
+        <span>The Twin Crowns</span>
+      </div>
+    </a>
+    <div class="nav-links" aria-label="Primary navigation">
+      <a href="map.html">Map</a>
+      <a href="codex.html">Codex</a>
+      <a href="regions.html">Regions</a>
+      <a href="decrees.html">Decrees</a>
+      <a href="court.html">The Court</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="section">
+  <div class="container">
+    <div class="card pad">
+      <div class="h2">World Map</div>
+      <p class="lede">Embed your live BlueMap or Dynmap here. Replace the iframe URL below with your map URL.</p>
+      <div class="notice" style="margin-top:10px;">
+        <b>How to use:</b> Open <span style="font-family:var(--mono)">map.html</span> and replace <span style="font-family:var(--mono)">YOUR_MAP_URL_HERE</span> with your BlueMap/Dynmap link.
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card pad">
+        <div class="embed">
+          
+              <iframe 
+                src="map-output/index.html" 
+                title="Empire World Map"
+                style="width: 100%; height: 700px; border: none; border-radius: 8px;"
+                allowfullscreen>
+              </iframe>
+
+        </div>
+
+        <div class="hr"></div>
+        <div class="grid two">
+          <div>
+            <div class="h3">Pins / Links</div>
+            <ul>
+              <li><b>The City</b> — Imperial Capital (pin this on your map)</li>
+              <li><b>The Third Village</b> — Duchy of Duke ChristosZita (<a href="region.html#third-village">open page</a>)</li>
+            </ul>
+          </div>
+          <div>
+            <div class="h3">Legend</div>
+            <div class="row" style="margin-top:8px;">
+              <span class="tag">⭐ Capital</span>
+              <span class="tag">🏰 Regions</span>
+              <span class="tag">⚙️ Industrial Sites</span>
+              <span class="tag">🔮 Temples</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="footer">
+  <div class="container">
+    <div class="foot">
+      <div>© <span id="y"></span> The Empire of the Twin Crowns</div>
+      <div>Lishhhhmm • panosusa</div>
+    </div>
+  </div>
+</div>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+
+<script src="script.js"></script>
+</body>
+</html>-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>World Map — Empire of the Twin Crowns</title>
+  <meta name="description" content="Official portal of the Empire of the Twin Crowns"/>
+  <link rel="icon" href="assets/empire-banner.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.ico">
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    /* Special styling for the construction state */
+    .construction-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 500px;
+      background: rgba(0,0,0,0.05);
+      border: 2px dashed var(--border);
+      border-radius: 8px;
+      text-align: center;
+      padding: 20px;
+    }
+    .construction-icon {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/empire-banner.png" alt="Empire banner">
+      <div class="title">
+        <strong>Empire Portal</strong>
+        <span>The Twin Crowns</span>
+      </div>
+    </a>
+    <div class="nav-links" aria-label="Primary navigation">
+      <a href="map.html" class="active">Map</a>
+      <a href="codex.html">Codex</a>
+      <a href="regions.html">Regions</a>
+      <a href="decrees.html">Decrees</a>
+      <a href="court.html">The Court</a>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    <div class="card pad">
+      <div class="h2">Imperial Cartography</div>
+      <p class="lede">The Royal Surveyors are currently charting the vast reaches of the Twin Crowns.</p>
+    </div>
+
+    <div class="section">
+      <div class="card pad">
+        <div class="construction-box">
+          <div class="construction-icon">📜</div>
+          <div class="h3">Map Under Revision</div>
+          <p>By decree of the Twin Crowns, the world map is being updated with new regional borders and topological data.</p>
+          <p style="font-style: italic; color: #666;">Expected completion: Early 2026</p>
+        </div>
+
+        <div class="hr"></div>
+        <div class="grid two">
+          <div>
+            <div class="h3">Planned Markers</div>
+            <ul>
+              <li><b>The City</b> — Imperial Capital</li>
+              <li><b>The Third Village</b> — Duchy of Duke ChristosZita</li>
+            </ul>
+          </div>
+          <div>
+            <div class="h3">Legend Key</div>
+            <div class="row" style="margin-top:8px;">
+              <span class="tag">⭐ Capital</span>
+              <span class="tag">🏰 Regions</span>
+              <span class="tag">⚙️ Industrial Sites</span>
+              <span class="tag">🔮 Temples</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="foot">
+      <div>© <span id="y"></span> The Empire of the Twin Crowns</div>
+      <div>Lishhhhmm • panosusa</div>
+    </div>
+  </div>
+</div>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Region — Empire of the Twin Crowns</title>
+  <meta name="description" content="Official portal of the Empire of the Twin Crowns"/>
+  <link rel="icon" href="assets/empire-banner.png"/>
+   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.ico">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/empire-banner.png" alt="Empire banner">
+      <div class="title">
+        <strong>Empire Portal</strong>
+        <span>The Twin Crowns</span>
+      </div>
+    </a>
+    <div class="nav-links" aria-label="Primary navigation">
+      <a href="map.html">Map</a>
+      <a href="codex.html">Codex</a>
+      <a href="regions.html">Regions</a>
+      <a href="decrees.html">Decrees</a>
+      <a href="court.html">The Court</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="section">
+  <div class="container">
+    <div class="card pad">
+      <div class="h2" id="regionName">Region</div>
+      <div class="meta" id="regionMeta"></div>
+      <div class="row" id="regionTags" style="margin-top:10px;"></div>
+      <div class="hr"></div>
+      <p class="lede" id="regionLore"></p>
+    </div>
+
+    <div class="section grid two">
+      <div class="card pad">
+        <div class="h2">Region Details</div>
+        <div class="kv" id="regionKV" style="margin-top:10px;"></div>
+      </div>
+
+      <div class="card pad">
+        <div class="h2">Builds Gallery</div>
+        <p class="lede">Replace placeholders with screenshots later (just swap the <span style="font-family:var(--mono)">div.ph</span> blocks for <span style="font-family:var(--mono)">&lt;img&gt;</span> tags).</p>
+        <div class="gallery" id="regionGallery" style="margin-top:10px;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <div class="container">
+    <div class="foot">
+      <div>© <span id="y"></span> The Empire of the Twin Crowns</div>
+      <div>Lishhhhmm • panosusa</div>
+    </div>
+  </div>
+</div>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+
+<script src="script.js"></script>
+</body>
+</html>

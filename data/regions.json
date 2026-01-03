@@ -1,0 +1,68 @@
+{
+  "regions": [
+    {
+      "id": "the-city",
+      "name": "The City",
+      "type": "Imperial Capital",
+      "duke": "Directly Ruled by the Emperors",
+      "biome": "Coastal / Urban",
+      "specialty": "Governance, Industry, Infrastructure, Ceremony",
+      "founded": "Union of Village A and Village B",
+      "focus": [
+        "governance",
+        "industry",
+        "infrastructure",
+        "ceremony",
+        "transport"
+      ],
+      "lore": "Formed through the unification of Village A and Village B, The City stands as the heart of the Empire. It is the seat of the Twin Crowns, the center of industry, law, and ceremony, and the foundation upon which Imperial authority is built.",
+      "contribution": "Serves as the administrative, industrial, and logistical core of the Empire, coordinating production, governance, and expansion across all regions.",
+      "locations": [
+        "Imperial Palace",
+        "Empire Hall",
+        "Plaza of Ceremonies",
+        "Imperial Industrial Zone",
+        "Central Imperial Storehouse",
+        "Imperial Temple of the Arts",
+        "Central Capital Station",
+        "Imperial Museum and Library"
+      ],
+      "coordinates": [
+        "Imperial Palace: (add coords)",
+        "Empire Hall: (add coords)",
+        "Central Station: (add coords)",
+        "Industrial Zone: (add coords)"
+      ],
+      "relations": "Seat of the Twin Crowns; central authority over all regions of the Empire.",
+      "galleryPlaceholders": 10
+    },
+    {
+      "id": "third-village",
+      "name": "The Third Village",
+      "type": "Duchy",
+      "duke": "ChristosZita",
+      "biome": "Plains / Mixed",
+      "specialty": "Early Industry & Expansion Support",
+      "founded": "Upon the Birth of the Empire",
+      "focus": [
+        "industry",
+        "trade",
+        "construction"
+      ],
+      "lore": "Discovered during Imperial exploration, this village became the first to accept the Imperial Proposal, transforming cooperation into sovereignty.",
+      "contribution": "Operates assigned production infrastructure and supplies designated materials to the Capital.",
+      "locations": [
+        "Central Administrative Hall",
+        "Central Goods Repository",
+        "Production Facilities",
+        "Imperial Station"
+      ],
+      "coordinates": [
+        "Admin Hall: (add coords)",
+        "Station: (add coords)"
+      ],
+      "relations": "Foundational ally of The City; loyal to the Twin Crowns.",
+      "galleryPlaceholders": 8
+    }
+  ]
+}
